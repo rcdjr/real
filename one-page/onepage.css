@@ -142,6 +142,21 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 
 .page-section { padding: 120px 0; }
 
+.logo-bg-pad { 
+	padding-bottom: 60px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+
+
+}
+.services-head-pad { 
+	padding-bottom: 30px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+   
+
+}
 
 /* ----------------------------------------------------------------------------
 	Heading Block
@@ -192,7 +207,7 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 
 .padding-button-top {
 padding-top: 30px;
-margin-top: 6000px;
+margin-top: 30px;
 
 }
 
