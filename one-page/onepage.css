@@ -190,6 +190,13 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 	Buttons
 ---------------------------------------------------------------------------- */
 
+.padding-button-top {
+padding-top: 30px;
+margin-top: 6000px;
+
+}
+
+
 .button.button-border {
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -210,6 +217,8 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 	color: #333;
 	text-shadow: none;
 }
+
+
 
 
 /* More Link
