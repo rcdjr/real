@@ -152,10 +152,9 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 .services-head-pad { 
 	padding-bottom: 30px;
     margin-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
    
-
 }
 
 /* ----------------------------------------------------------------------------
@@ -200,6 +199,9 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 	text-shadow: none;
 }
 
+.text-serv {
+    color: #fff !important;
+}
 
 /* ----------------------------------------------------------------------------
 	Buttons
@@ -381,6 +383,12 @@ textarea.border-form-control {
 	Footer Widgets
 ---------------------------------------------------------------------------- */
 
+/*.footer-color {
+	text-align: left !important;
+	padding-left: 50px !important;
+	color: #FFFFFF !important;
+}
+*/
 #footer .widget { padding: 30px 0; }
 
 #footer .widget > h4 {
@@ -390,7 +398,6 @@ textarea.border-form-control {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
-
 
 
 #footer .widget ul.footer-site-links li {
