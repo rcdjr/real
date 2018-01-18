@@ -278,7 +278,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #fff;
   background-color: #ffffff;
 }
 input,
@@ -476,7 +476,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 2px;
 }
 .lead {
   margin-bottom: 20px;

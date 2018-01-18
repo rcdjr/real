@@ -139,7 +139,7 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #555;
+	color: #FFF;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -202,7 +202,7 @@ h4 > span:not(.nocolor),
 h5 > span:not(.nocolor),
 h6 > span:not(.nocolor) { color: #083996; }
 
-p,
+
 pre,
 ul,
 ol,
@@ -215,6 +215,8 @@ fieldset,
 form { margin-bottom: 30px; }
 
 small { font-family: 'Lato', sans-serif; }
+
+force-bg { background-color: #083996 !important; }
 
 
 /* ----------------------------------------------------------------
@@ -535,7 +537,7 @@ span.middot {
 	position: relative;
 	margin: 60px 0;
 	padding: 60px 0;
-	background-color: #F9F9F9;
+	background-color: #FFF;
 	overflow: hidden;
 }
 
@@ -1012,10 +1014,10 @@ body.stretched #header.full-header .container {
 #header.full-header #logo {
 	padding-right: 30px;
 	margin-right: 30px;
-	border-right: 1px solid #EEE;
+	
 }
 
-#header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
+#header.transparent-header.full-header #logo {  }
 
 #logo a {
 	display: block;
@@ -1082,10 +1084,10 @@ body.stretched #header.full-header .container {
 	float: left;
 	padding-right: 15px;
 	margin-right: 15px;
-	border-right: 1px solid #EEE;
+	/*border-right: 1px solid #EEE;*/
 }
 
-#header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
+#header.transparent-header.full-header #primary-menu > ul { /*border-right-color: rgba(0,0,0,0.1);*/ }
 
 #primary-menu-trigger,
 #page-submenu-trigger {
@@ -1127,7 +1129,7 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
+	color: #000;
 	font-weight: bold;
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -1170,8 +1172,8 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 	width: 220px;
 	background-color: #FFF;
 	box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
-	border: 1px solid #EEE;
-	border-top: 2px solid #083996;
+	border: 0px solid #EEE;
+	border-top: 0px solid #083996;
 	height: auto;
 	z-index: 199;
 	top: 100%;
@@ -3003,7 +3005,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	top: 0;
 	left: 0;
 	z-index: 5;
-	background: transparent url('images/grid.png') repeat;
+/*	background: transparent url('images/grid.png') repeat;*/
 	-webkit-backface-visibility: hidden;
 }
 
@@ -3323,6 +3325,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	padding: 50px 0;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #EEE;
+	height: 100% !important;
 }
 
 #page-title .container { position: relative; }
@@ -3331,9 +3334,9 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	padding: 0;
 	margin: 0;
 	line-height: 1;
-	font-weight: 600;
+	font-weight: 300;
 	letter-spacing: 1px;
-	color: #333;
+	color: #FFF;
 	font-size: 28px;
 	text-transform: uppercase;
 }
@@ -3341,8 +3344,8 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 #page-title span {
 	display: block;
 	margin-top: 10px;
-	font-weight: 300;
-	color: #777;
+	font-weight: 200;
+	color: #FFF;
 	font-size: 18px;
 }
 
@@ -3362,7 +3365,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 #header.transparent-header + #page-title.page-title-parallax .breadcrumb { margin-top: 35px !important; }
 
-.breadcrumb a { color: #555; }
+.breadcrumb a { color: FFF; }
 
 .breadcrumb a:hover { color: #083996; }
 
@@ -3723,7 +3726,7 @@ body:not(.device-touch) .portfolio {
 .portfolio-item {
 	float: left;
 	position: relative;
-	width: 25%;
+	width: 20%;
 	height: auto;
 	padding: 0 12px 12px 0;
 }
@@ -4285,13 +4288,14 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-1.portfolio-
 .portfolio-1.portfolio-fullwidth .portfolio-desc {
 	position: absolute;
 	float: none;
-	width: 380px;
+	width: 780px;
 	height: 100%;
-	padding: 30px;
-	background-color: #F9F9F9;
+	padding: 40%;
+	background-color: #083996;
 	top: 0;
 	left: auto;
-	right: -380px;
+	right: -780px;
+
 }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-1.portfolio-fullwidth .portfolio-desc {
@@ -4503,6 +4507,14 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio.portfolio-pa
 .portfolio.portfolio-parallax .portfolio-overlay { background-color: rgba(0,0,0,0.4); }
 
 
+
+.text-port-fix {
+	color: #FFF !important;
+
+
+}
+
+
 /* Portfolio - Overlay
 -----------------------------------------------------------------*/
 
@@ -4515,19 +4527,20 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio.portfolio-pa
 	opacity: 0;
 	z-index: 2;
 	text-align: center;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.9);
 }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
-	-webkit-transition: opacity .4s ease-in-out;
-	-o-transition: opacity .4s ease-in-out;
-	transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
 }
 
 .portfolio-item:hover .portfolio-overlay,
-.iportfolio:hover .portfolio-overlay { opacity: 1; }
+.iportfolio:hover .portfolio-overlay { opacity: 0.9;}
+.portfolio-image:hover h3 {display: none; }
 
-.portfolio-overlay a {
+.portfolio-overlay a p {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -4538,7 +4551,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
 	font-size: 18px;
 	line-height: 40px;
 	text-align: center;
-	color: #444;
+	color: #FFF;
 	border-radius: 50%;
 	-webkit-backface-visibility: hidden;
 }
@@ -4606,19 +4619,19 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 
 .portfolio-overlay .portfolio-desc h3 {
 	font-weight: 600;
-	color: #F5F5F5 !important;
+	color: #fff !important;
 	line-height: 1;
 }
 
-.portfolio-overlay .portfolio-desc h3 a { color: #F5F5F5 !important; }
+.portfolio-overlay .portfolio-desc h3 a { color: #fff !important; }
 
 .portfolio-overlay .portfolio-desc span {
 	margin-top: 7px;
-	color: #DDD !important;
+	color: #fff !important;
 }
 
 .portfolio-overlay .portfolio-desc span a {
-	color: #DDD !important;
+	color: #fff !important;
 	font-size: inherit;
 }
 
@@ -9841,7 +9854,7 @@ body:not(.device-touch) .clients-grid li a {
 .team-desc { text-align: center; }
 
 .team-desc.team-desc-bg {
-	background-color: #FFF;
+	background-color: #F9F9F9;
 	padding: 10px 0 30px;
 }
 
