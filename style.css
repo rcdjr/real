@@ -4527,7 +4527,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio.portfolio-pa
 	opacity: 0;
 	z-index: 2;
 	text-align: center;
-	background-color: rgba(0,0,0,0.9);
+	/*background-color: rgba(0,0,0,0.9);*/
 }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
@@ -5406,13 +5406,13 @@ body:not(.device-touch) .entry-link {
 
 .more-link {
 	display: inline-block;
-	border-bottom: 1px solid #083996;
+	border-bottom: 1px solid #fb6623;
 	padding: 0 2px;
 	font-family: 'Crete Round', serif;
 	font-style: italic;
 }
 
-.more-link:hover { border-bottom-color: #555; }
+.more-link:hover { border-bottom-color: #083996; }
 
 
 /* Related Posts
@@ -9875,9 +9875,9 @@ body:not(.device-touch) .clients-grid li a {
 
 .team-title h4 {
 	display: block;
-	margin-bottom: 0;
+	margin-bottom: 30px;
 	font-size: 19px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
 	font-weight: 700;
 }
