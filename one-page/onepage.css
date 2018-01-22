@@ -115,8 +115,8 @@
 	letter-spacing: 3px;
 }
 
-li:hover{
-	font-weight: bolder !important;
+a:hover{
+	
 	color: #fb6623 !important;
 
 }
