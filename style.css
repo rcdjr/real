@@ -9854,7 +9854,7 @@ body:not(.device-touch) .clients-grid li a {
 .team-desc { text-align: center; }
 
 .team-desc.team-desc-bg {
-	background-color: #F9F9F9;
+	/*background-color: #F5F5F5;*/
 	padding: 10px 0 30px;
 }
 
