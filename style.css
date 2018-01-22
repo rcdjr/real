@@ -112,20 +112,26 @@ dl, dt, dd, ol, ul, li {
 
 ::selection {
 	background: #083996;
-	color: #FFF;
-	text-shadow: none;
+	font-weight: bolder !important;
+	color: #fb6623 !important;
+	text-shadow: 2px 2px #000;
+	
 }
 
 ::-moz-selection {
 	background: #083996; /* Firefox */
-	color: #FFF;
+	font-weight: bolder !important;
+	color: #fb6623 !important;
 	text-shadow: none;
+	
 }
 
 ::-webkit-selection {
 	background: #083996; /* Safari */
-	color: #FFF;
+	font-weight: bolder !important;
+	color: #fb6623 !important;
 	text-shadow: none;
+	
 }
 
 :active,
@@ -145,10 +151,11 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #083996;
+	color: #fb6623;
+	 
 }
 
-a:hover { color: #222; }
+a:hover { color: #083996; }
 
 a img { border: none; }
 
