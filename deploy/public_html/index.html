@@ -3,27 +3,27 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+	
 
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="../includes/css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="../includes/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="../includes/css/onepage.css" type="text/css" />
+	<link rel="stylesheet" href="css/onepage.css" type="text/css" />
 	<!-- / -->
 
-	<link rel="stylesheet" href="../includes/css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="../includes/css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="../includes/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="../includes/css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="../includes/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="../includes/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 
-	<link rel="stylesheet" href="../includes/css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
@@ -214,7 +214,7 @@ Focamos em atender a real necessidade de cada cliente, assim conseguimos prestar
 									<a data-scrollto="#sub-fiscal"><img class="services-head-pad" src="images/servicesheader/3.png" alt="REAL"></a>
 									<a data-scrollto="#sub-rh"><img class="services-head-pad" src="images/servicesheader/4.png" alt="REAL"></a>
 									<a data-scrollto="#sub-sc"><img class="services-head-pad" src="images/servicesheader/5.png" alt="REAL"></a>
-									<a data-scrollto="#sub-ip"><img class="services-head-pad" src="images/servicesheader/2.png" alt="REAL"></a>
+									<a data-scrollto="#sub-ip"><img class="services-head-pad" src="images/servicesheader/6.png" alt="REAL"></a>
 
 								</div>
 						
@@ -368,8 +368,8 @@ Focamos em atender a real necessidade de cada cliente, assim conseguimos prestar
 						<article class="portfolio-item pf-media pf-icons">
 							<div class="portfolio-image" id="sub-ip">
 								<a href="portfolio-single.html">
-									<img src="images/portfolio/mixed/2.png" alt="Imposto de renda">
-									<h3 class="vertical-middle container font-body text-serv text-port-fix">Imposto de Renda</br>Pessoa Física</h3>							
+									<img src="images/portfolio/mixed/6.png" alt="Imposto de renda">
+									<h3 class="vertical-middle container font-body text-serv text-port-fix">Declaração de IR</h3>							
 
 								</a>
 								<div class="portfolio-overlay">
@@ -489,7 +489,7 @@ Focamos em atender a real necessidade de cada cliente, assim conseguimos prestar
 
 								<div class="contact-form-result"></div>
 
-								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="includes/php/sendemail.php" method="post">
 
 									<div class="form-process"></div>
 
@@ -578,7 +578,7 @@ Focamos em atender a real necessidade de cada cliente, assim conseguimos prestar
 								<h4 style="color: #FFFFFF !important;">ASSINE NOSSA NEWSLETTER</h4>
 
 								<div class="widget-subscribe-form-result"></div>
-								<form id="widget-subscribe-form" action="../include/subscribe.php" role="form" method="post" class="nobottommargin">
+								<form id="widget-subscribe-form" action="../includes/php/subscribe.php" role="form" method="post" class="nobottommargin">
 									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control input-lg not-dark required email" placeholder="SEU E-MAIL AQUI">
 									<button class="button button-border button-circle button-light topmargin-sm" type="submit">ASSINAR</button>
 								</form>
@@ -641,51 +641,51 @@ Focamos em atender a real necessidade de cada cliente, assim conseguimos prestar
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="../includes/js/jquery.js"></script>
-	<script type="text/javascript" src="../includes/js/plugins.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
 
 	<!-- Google Map JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
-	<script type="text/javascript" src="../includes/js/jquery.gmap.js"></script>
+	<!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script> -->
+	<script type="text/javascript" src="js/jquery.gmap.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script type="text/javascript" src="../includes/js/functions.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
 
 	<script type="text/javascript">
 
-		jQuery(window).load(function(){
+		// jQuery(window).load(function(){
 
-			// Google Map
-			jQuery('#headquarters-map').gMap({
-				address: 'Melbourne, Australia',
-				maptype: 'ROADMAP',
-				zoom: 14,
-				markers: [
-					{
-						address: "Melbourne, Australia",
-						html: "Melbourne, Australia",
-						icon: {
-							image: "images/icons/map-icon-red.png",
-							iconsize: [32, 32],
-							iconanchor: [14,44]
-						}
-					}
-				],
-				doubleclickzoom: false,
-				controls: {
-					panControl: false,
-					zoomControl: false,
-					mapTypeControl: false,
-					scaleControl: false,
-					streetViewControl: false,
-					overviewMapControl: false
-				},
-				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-			});
+		// 	// Google Map
+		// 	jQuery('#headquarters-map').gMap({
+		// 		address: 'Melbourne, Australia',
+		// 		maptype: 'ROADMAP',
+		// 		zoom: 14,
+		// 		markers: [
+		// 			{
+		// 				address: "Melbourne, Australia",
+		// 				html: "Melbourne, Australia",
+		// 				icon: {
+		// 					image: "images/icons/map-icon-red.png",
+		// 					iconsize: [32, 32],
+		// 					iconanchor: [14,44]
+		// 				}
+		// 			}
+		// 		],
+		// 		doubleclickzoom: false,
+		// 		controls: {
+		// 			panControl: false,
+		// 			zoomControl: false,
+		// 			mapTypeControl: false,
+		// 			scaleControl: false,
+		// 			streetViewControl: false,
+		// 			overviewMapControl: false
+		// 		},
+		// 		styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+		// 	});
 
-		});
+		// });
 
 	</script>
 
