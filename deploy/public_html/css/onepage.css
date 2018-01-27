@@ -205,7 +205,7 @@ p.text-port-fix2 {
 	opacity: 1 !important;
 	line-height: 18px !important;
 	text-align: left !important;
-	margin-left: 5% !important;
+	margin-left: 3% !important;
 	-ms-text-size-adjust: 100% !important;
   	-webkit-text-size-adjust: 100% !important;
 
@@ -216,7 +216,7 @@ h4.text-port-fix2 {
 	opacity: 1 !important;
 	line-height: 22px !important;
 	text-align: left !important;
-	margin-left: 5% !important;
+	margin-left: 3% !important;
 	-ms-text-size-adjust: 100% !important;
   	-webkit-text-size-adjust: 100% !important;
 
@@ -225,7 +225,7 @@ h4.text-port-fix2 {
 
 .text-port-pad{
 
-	margin-left: 5% !important;
+	margin-left: 3% !important;
 	padding: 1% !important;
 
 }

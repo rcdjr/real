@@ -4607,7 +4607,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 	position: relative;
 	padding: 0 !important;
 	margin: 0;
-	text-align: center;
+	text-align: left;
+	margin-left: 3%;
 }
 
 .portfolio-overlay .portfolio-desc a {
@@ -11993,7 +11994,7 @@ button.toast-close-button {
 
 #copyrights {
 	padding: 40px 0;
-	background-color: #DDD;
+	background-color: #083996;
 	font-size: 14px;
 	line-height: 1.8;
 }
