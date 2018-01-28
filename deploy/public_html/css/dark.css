@@ -1214,10 +1214,12 @@ body #side-panel.dark #side-panel-trigger-close a {
 
 .dark .form-control:not(.not-dark),
 .dark .sm-form-control:not(.not-dark) {
-	color: #999;
+	/*color: #999;*/
+	color: #FFF;
 	background-color: rgba(0,0,0,0.2);
 	border-color: rgba(0,0,0,0.25);
 }
+
 
 .dark .form-control:not(.not-dark) option,
 .dark .sm-form-control:not(.not-dark) option { background-color: #282828; }
@@ -1230,12 +1232,12 @@ body #side-panel.dark #side-panel-trigger-close a {
 	border-color: rgba(0,0,0,0.25) !important;
 }
 
-.dark .form-control:not(.not-dark)::-moz-placeholder { color: #666; }
-.dark .form-control:not(.not-dark):-ms-input-placeholder { color: #666; }
-.dark .form-control:not(.not-dark)::-webkit-input-placeholder { color: #666; }
-.dark .sm-form-control:not(.not-dark)::-moz-placeholder { color: #666; }
-.dark .sm-form-control:not(.not-dark):-ms-input-placeholder { color: #666; }
-.dark .sm-form-control:not(.not-dark)::-webkit-input-placeholder { color: #666; }
+.dark .form-control:not(.not-dark)::-moz-placeholder { color: #FFF; }
+.dark .form-control:not(.not-dark):-ms-input-placeholder { color: #FFF; }
+.dark .form-control:not(.not-dark)::-webkit-input-placeholder { color: #FFF; }
+.dark .sm-form-control:not(.not-dark)::-moz-placeholder { color: #FFF; }
+.dark .sm-form-control:not(.not-dark):-ms-input-placeholder { color: #FFF; }
+.dark .sm-form-control:not(.not-dark)::-webkit-input-placeholder { color: #FFF; }
 
 .dark .form-control:not(.not-dark)[disabled],
 .dark .form-control:not(.not-dark)[readonly],
