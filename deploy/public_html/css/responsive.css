@@ -23,7 +23,7 @@
 }
 
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1039px) and (max-width: 1199px) {
 
 	#wrapper { width: 1000px; }
 
@@ -241,7 +241,7 @@
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 1038px) {
 
 	#wrapper {
 		width: 100%;
@@ -1074,7 +1074,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1038px) {
 
 	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid),
 	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide { height: 400px !important; }
@@ -1842,12 +1842,12 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 @media
-only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px),
-only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 991px),
-only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
-only screen and (        min-device-pixel-ratio: 2) and (max-width: 991px),
-only screen and (                min-resolution: 192dpi) and (max-width: 991px),
-only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1038px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (max-width: 1038px),
+only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-width: 1038px),
+only screen and (        min-device-pixel-ratio: 2) and (max-width: 1038px),
+only screen and (                min-resolution: 192dpi) and (max-width: 1038px),
+only screen and (                min-resolution: 2dppx) and (max-width: 1038px) {
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo { display: inline-block; }
 }

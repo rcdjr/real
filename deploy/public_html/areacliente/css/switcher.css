@@ -1,0 +1,109 @@
+/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+	#style-switcher h3 {
+		color:#fff;
+		font-size:12px;
+		margin: 5px 0 5px 3px;
+	}
+	
+	#style-switcher {
+		background: #303030;
+		width: 195px;
+		position:fixed;
+		top:50px;
+		z-index: 9;
+		border-radius: 0 0 3px 0;
+		left: -195px;
+	}
+	
+	#style-switcher div.inner {
+		padding: 5px 10px;
+	}
+	
+	#style-switcher h2 {
+		background: #404040;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 13px;
+		padding: 8px 0 7px 10px;
+	}
+	
+	#style-switcher h2 a {
+		background: url("../images/switcher.png") no-repeat 9px center transparent;
+		background-color: #404040;
+		display: block;
+		height: 41px;
+		position: absolute;
+		right: -39px;
+		text-indent: -9999px;
+		top: 0;
+		width: 39px;
+		border-radius: 0 3px 3px 0;
+	}
+
+	#layout-bg{
+		opacity: 10
+	}
+
+	#layout-bg.active{
+		opacity: 100
+	}
+	
+	.colors { list-style:none; margin:0px 0px 10px 0px; overflow: hidden}
+	.colors li { float:left; margin:2px; }
+	.colors li a { display: block; width:15px; height:15px; cursor: pointer;} 
+	
+	.select {
+		width: 100%;
+		padding: 5px;
+		border: none;
+		width: 165px;
+		margin: -3px 0 12px 3px;
+		color: #666;
+		border-radius: 1px;
+		cursor: pointer;
+	}
+	
+	#reset {margin: 0 0 15px 2px;}
+	#reset a {color: #fff; font-size: 12px; padding: 5px 14px; box-shadow: none; border-radius: 1px; }
+	
+	.blue { background: #169fe6; }
+	.green { background: #7cb600; }
+	.orange {background: #fa5b0f; }
+	.navy { background: #495d7f; }
+	.yellow { background: #ffb400; }
+	.peach { background :#fcab55; }
+	.red { background: #c62020; }
+	.beige { background: #bfa980; }
+	.pink { background: #c71c77; }
+	.cyan { background: #37b6bd;}
+	.celadon { background: #74aea1;}
+	.brown { background: #784e3d; }
+	.cherry { background: #911938;}
+	a.gray { background: #707070;}
+	.purple { background: #6957af; }
+	.olive { background: #b3c211; }
+	.dark { background: #404040; }
+	.dirty-green { background: #3b6e40; }
+
+	.bg1 { background-image: url("../images/bg/argyle.png"); }
+	.bg2 { background-image: url("../images/bg/blackmamba.png"); }
+	.bg3 { background-image: url("../images/bg/bright_squares.png"); }
+	.bg4 { background-image: url("../images/bg/concrete_wall.png"); }
+	.bg5 { background-image: url("../images/bg/crissXcross.png"); }
+	.bg6 { background-image: url("../images/bg/exclusive_paper.png"); }
+	.bg7 { background-image: url("../images/bg/gplaypattern.png"); }
+	.bg8 { background-image: url("../images/bg/green-fibers.png"); }
+	.bg9 { background-image: url("../images/bg/grey_wash_wall.png"); }
+	.bg10 { background-image: url("../images/bg/light_wool.png"); }
+	.bg11 { background-image: url("../images/bg/notebook.png"); }
+	.bg12 { background-image: url("../images/bg/old_mathematics.png"); }
+	.bg13 { background-image: url("../images/bg/px_by_Gre3g.png"); }
+	.bg14 { background-image: url("../images/bg/sandpaper.png"); }
+	.bg15 { background-image: url("../images/bg/sos.png"); }
+	.bg16 { background-image: url("../images/bg/tileable_wood_texture.png"); }
+	.bg17 { background-image: url("../images/bg/tweed.png"); }
+	.bg18 { background-image: url("../images/bg/wood_pattern.png"); }
+	.colors li a.active { box-shadow:0 0 0 2px #505050 inset }

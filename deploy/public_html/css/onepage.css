@@ -243,7 +243,8 @@ h4.text-port-fix2 {
 				 
 				 
 }
-.services-padding { padding-left: 25% !important;
+.services-padding { padding-left: 15% !important;
+	padding-right: 15% !important;
 }
  
 .portfolio-overlay .portfolio-desc h3 {
@@ -768,7 +769,7 @@ textarea.border-form-control {
 ---------------------------------------------------------------------------- */
 
 
-@media (max-width: 991px) {
+@media (max-width: 1038px) {
 
 	#logo { height: 70px !important; }
 

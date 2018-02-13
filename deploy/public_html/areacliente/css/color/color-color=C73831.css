@@ -1,0 +1,154 @@
+a:hover{
+	color: #050b58}
+header{
+	border-top-color: #050b58;
+}
+header #header .site-menu ul > li.sfHover > a,
+header #header .site-menu ul > li.current > a,
+header #header .site-menu ul > li > a:hover{
+	color: #050b58;
+	border-bottom-color: #050b58;
+}
+.top-widget .actions-top-widget a{
+	border-top-color: #050b58;
+}
+.top-widget.active .actions-top-widget a{
+	border-bottom-color: #050b58;
+}
+.callout.color{
+	background: #050b58;
+	border-color: #ca3b34;
+	background: -webkit-linear-gradient(top, #050b58 0%, rgba(199,56,49,0.5) 100%);?> /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #050b58 0%, rgba(199,56,49,0.5) 100%);?> /* W3C */
+}
+.menu-vertical ul li:hover a{
+	background: #050b58;
+	border-color: #050b58;
+}
+.flickr-widget clearfix a:hover {
+	border-color: #050b58;
+}
+.user:hover{
+	background: #050b58;
+	border-color: #ca3b34;
+}
+.button.color{
+	background: #050b58;
+	border-color:#cccccc;
+	background: -webkit-linear-gradient(top, rgba(204,56,49) 0%, #050b58 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, rgba(204,56,49) 0%, #050b58 100%); /* W3C */
+}
+.button.color:hover{
+	background: #050b58;
+	background: -webkit-linear-gradient(top, #cccccc;) 0%, #050b58 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #cccccc;) 0%, #050b58 100%); /* W3C */
+	border-color: #cccccc;
+}
+.portfolio-item .portfolio-link a:hover,
+.blog-item .blog-item-image-cover .blog-item-image-cover-link a:hover,
+.slide li .slide-content h4,
+.content-slider .flex-direction-nav a:hover,
+.portfolio-item .portfolio-title,
+.portfolio-item .portfolio-link a:hover,
+.skill-bar .skill-bar-content,
+.blog-item .blog-item-image-cover .blog-item-image-cover-link a:hover,
+footer .twitter-bar{
+	background: rgba(115, 203, 27, 0.8);
+}
+
+/* CALENDARIO ------------------------------------------------------------ */
+
+#body_calendario {
+	margin: 0px;
+	border: 0px;
+	text-align: left;
+	background-color: #FFF;
+}
+.dropcal {
+	font: bold 11px arial;
+	color: #000; 
+	background-color: #fff;
+	width: 100%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#calendario {
+	margin: 0px;
+	text-align: center;
+	height: 90px;
+	background-color: #FFF;
+}
+#tab_calendario {
+	height: 100%;
+	width: 100%;
+}
+#legenda {
+	background-color: #fff;
+}
+.evento {  
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #000000;
+	background-color: #dff4bd;
+}
+.vencim {
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #fff;
+	background-color: #F4E407;
+}
+.feriado {
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #FFFFFF;
+	background-color:#003333;
+}
+.sabado {
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #333;
+	background-color: #ddd;
+}
+.domingo {
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #f00000;
+	background-color: #fff;
+}
+.hoje {
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #fff;
+	background-color:#003300;
+}
+.nada {
+	text-align: center;
+	cursor: pointer;
+	font: bold 10px Arial;
+	color: #000000;
+	background-color: #eee;
+}
+.sabado_2 {
+	text-align: center;
+	font: bold 10px Arial;
+	color: #000;
+	background-color: #ddd;
+}
+.domingo_2 {
+	text-align: center;
+	font: bold 10px Arial;
+	color: #f00000;
+	background-color: #fff;
+}
+.nada_2 {
+	text-align: center;
+	font: bold 10px Arial;
+	color: #eee;
+	background-color: #eee;
+}
+

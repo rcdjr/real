@@ -144,7 +144,7 @@ dl, dt, dd, ol, ul, li {
 
 
 body {
-	line-height: 1.5;
+	line-height: 1.4;
 	color: #FFF;
 	font-family: 'Lato', sans-serif;
 }
@@ -3721,7 +3721,7 @@ body:not(.device-touch) .grid-container {
 
 .portfolio {
 	position: relative;
-	margin: 0 -12px -12px 0;
+	/*margin: 0 -10px -10px 0;*/
 }
 
 body:not(.device-touch) .portfolio {
@@ -3733,9 +3733,9 @@ body:not(.device-touch) .portfolio {
 .portfolio-item {
 	float: left;
 	position: relative;
-	width: 20%;
+	width: 25%;
 	height: auto;
-	padding: 0 12px 12px 0;
+	padding: 0 10px 10px 0;
 }
 
 .portfolio-notitle .portfolio-item,
@@ -4525,6 +4525,26 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio.portfolio-pa
 /* Portfolio - Overlay
 -----------------------------------------------------------------*/
 
+
+
+
+
+.padding-portfolio{
+padding-left: 10% !important; padding-right: 10% !important;}
+
+
+
+@media only screen and (max-width: 400px) {
+.padding-portfolio{
+padding-left: 2% !important; 
+padding-right: 2% !important;
+margin: 0 !important;
+}
+.padding-portifolio li {
+	font-size: 12px !important;
+}
+}
+
 .portfolio-overlay {
 	position: absolute;
 	top: 0;
@@ -4535,6 +4555,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio.portfolio-pa
 	z-index: 2;
 	text-align: center;
 	/*background-color: rgba(0,0,0,0.9);*/
+	background-color: transparent !important;
 }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
@@ -4544,14 +4565,20 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
 }
 
 .portfolio-item:hover .portfolio-overlay,
-.iportfolio:hover .portfolio-overlay { opacity: 0.9;}
+.iportfolio:hover .portfolio-overlay { opacity: 1;}
 .portfolio-image:hover h3 {display: none; }
+
+/*.portifolio-overlay:hover li h4 {
+	opacity: 1 !important;
+	color: #fff !important;
+
+}*/
 
 .portfolio-overlay a p {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	background-color: #F5F5F5;
+	/*background-color: #F5F5F5;*/
 	width: 40px !important;
 	height: 40px !important;
 	margin: -28px 0 0 -44px;
@@ -4589,7 +4616,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 
 .portfolio-overlay a:hover {
 	color: #083996;
-	background-color: #EEE;
+	/*background-color: #EEE;*/
 }
 
 .portfolio-item:hover .portfolio-overlay a.left-icon,
